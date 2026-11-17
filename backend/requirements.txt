@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+httpx>=0.27
+python-dotenv>=1.0
+pymupdf>=1.24
+scikit-learn>=1.4
+numpy>=1.26
+
+# Optional: dense embeddings + FAISS (set RETRIEVER=dense in .env)
+# sentence-transformers>=2.7
+# faiss-cpu>=1.8

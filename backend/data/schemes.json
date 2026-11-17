@@ -1,0 +1,256 @@
+{
+  "_note": "SAMPLE criteria transcribed from the sample docs in data/docs. Verify every line against the official guidelines before relying on it.",
+  "pm-kisan": {
+    "name": "PM-KISAN",
+    "criteria": [
+      {
+        "id": "occupation",
+        "text": "Farmer family owning cultivable land",
+        "field": "owns_land",
+        "op": "eq",
+        "value": true
+      },
+      {
+        "id": "tax",
+        "text": "Not an income tax payer",
+        "field": "pays_income_tax",
+        "op": "eq",
+        "value": false
+      },
+      {
+        "id": "govt",
+        "text": "Not a serving or retired government officer / constitutional post holder",
+        "field": "govt_employee",
+        "op": "eq",
+        "value": false
+      }
+    ],
+    "aliases": [
+      "pm-kisan",
+      "pm kisan",
+      "pmkisan",
+      "पीएम किसान",
+      "पीएम-किसान",
+      "प्रधानमंत्री किसान"
+    ]
+  },
+  "pm-jay": {
+    "name": "Ayushman Bharat PM-JAY",
+    "criteria": [
+      {
+        "id": "age_or_deprivation",
+        "text": "Listed under the deprivation/occupational criteria, OR aged 70 or above",
+        "field": "age",
+        "op": "gte_or_flag",
+        "value": 70,
+        "flag": "in_secc_list"
+      }
+    ],
+    "aliases": [
+      "pm-jay",
+      "pmjay",
+      "pm jay",
+      "ayushman",
+      "आयुष्मान"
+    ]
+  },
+  "pmay-g": {
+    "name": "PMAY-Gramin",
+    "criteria": [
+      {
+        "id": "area",
+        "text": "Resident of a rural area",
+        "field": "area",
+        "op": "eq",
+        "value": "rural"
+      },
+      {
+        "id": "house",
+        "text": "Houseless or living in a kutcha / dilapidated house",
+        "field": "has_pucca_house",
+        "op": "eq",
+        "value": false
+      }
+    ],
+    "aliases": [
+      "pmay-g",
+      "pmay g",
+      "pmayg",
+      "pmay",
+      "awas yojana",
+      "आवास योजना"
+    ]
+  },
+  "pmuy": {
+    "name": "PM Ujjwala Yojana",
+    "criteria": [
+      {
+        "id": "gender",
+        "text": "Applicant is a woman",
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "id": "age",
+        "text": "Applicant is an adult (18+)",
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "id": "lpg",
+        "text": "No existing LPG connection in the household",
+        "field": "has_lpg",
+        "op": "eq",
+        "value": false
+      },
+      {
+        "id": "bpl",
+        "text": "From a poor / BPL-category household",
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      }
+    ],
+    "aliases": [
+      "ujjwala",
+      "pmuy",
+      "उज्ज्वला",
+      "उज्जवला"
+    ]
+  },
+  "apy": {
+    "name": "Atal Pension Yojana",
+    "criteria": [
+      {
+        "id": "age",
+        "text": "Age between 18 and 40",
+        "field": "age",
+        "op": "between",
+        "value": [
+          18,
+          40
+        ]
+      },
+      {
+        "id": "bank",
+        "text": "Has a savings bank / post office account",
+        "field": "has_bank_account",
+        "op": "eq",
+        "value": true
+      },
+      {
+        "id": "tax",
+        "text": "Not an income tax payer",
+        "field": "pays_income_tax",
+        "op": "eq",
+        "value": false
+      }
+    ],
+    "aliases": [
+      "atal pension",
+      "apy",
+      "अटल पेंशन"
+    ]
+  },
+  "ssy": {
+    "name": "Sukanya Samriddhi Yojana",
+    "criteria": [
+      {
+        "id": "girl",
+        "text": "Account is for a girl child",
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "id": "age",
+        "text": "Girl child is below 10 years of age",
+        "field": "age",
+        "op": "lt",
+        "value": 10
+      }
+    ],
+    "aliases": [
+      "sukanya",
+      "ssy",
+      "सुकन्या"
+    ]
+  },
+  "pmjdy": {
+    "name": "PM Jan Dhan Yojana",
+    "criteria": [],
+    "aliases": [
+      "jan dhan",
+      "pmjdy",
+      "pm jan dhan yojana"
+    ]
+  },
+  "pmfby": {
+    "name": "PM Fasal Bima Yojana",
+    "criteria": [],
+    "aliases": [
+      "fasal bima",
+      "crop insurance",
+      "pmfby",
+      "pm fasal bima yojana"
+    ]
+  },
+  "pm-svanidhi": {
+    "name": "PM SVANidhi",
+    "criteria": [],
+    "aliases": [
+      "svanidhi",
+      "street vendor",
+      "pm svanidhi",
+      "pm-svanidhi"
+    ]
+  },
+  "jjm": {
+    "name": "Jal Jeevan Mission",
+    "criteria": [],
+    "aliases": [
+      "har ghar jal",
+      "jjm",
+      "jal jeevan mission"
+    ]
+  },
+  "pm-mudra": {
+    "name": "PM Mudra Yojana",
+    "criteria": [],
+    "aliases": [
+      "mudra",
+      "pmmy",
+      "pm mudra yojana",
+      "pm-mudra"
+    ]
+  },
+  "stand-up-india": {
+    "name": "Stand-Up India",
+    "criteria": [],
+    "aliases": [
+      "stand up india",
+      "stand-up india",
+      "stand-up-india"
+    ]
+  },
+  "pmsby": {
+    "name": "PM Suraksha Bima Yojana",
+    "criteria": [],
+    "aliases": [
+      "suraksha bima",
+      "pmsby",
+      "pm suraksha bima yojana"
+    ]
+  },
+  "pmjjby": {
+    "name": "PM Jeevan Jyoti Bima Yojana",
+    "criteria": [],
+    "aliases": [
+      "jeevan jyoti",
+      "pmjjby",
+      "pm jeevan jyoti bima yojana"
+    ]
+  }
+}

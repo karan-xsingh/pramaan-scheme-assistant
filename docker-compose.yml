@@ -1,0 +1,16 @@
+# One command to run everything:  docker compose up --build
+# Then open http://localhost:8080
+services:
+  backend:
+    build: ./backend
+    env_file:
+      - ./backend/.env        # copy backend/.env.example to backend/.env and add LLM_API_KEY
+    environment:
+      TRUST_PROXY: "1"        # real client IP comes from nginx, for rate limiting
+      CORS_ORIGINS: "http://localhost:8080"
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend

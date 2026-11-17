@@ -1,0 +1,50 @@
+{
+  "pmjdy_1.pdf": {
+    "scheme": "pmjdy",
+    "title": "PM Jan Dhan Yojana (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024828381301.pdf",
+    "lang": "en"
+  },
+  "pmfby_1.pdf": {
+    "scheme": "pmfby",
+    "title": "PM Fasal Bima Yojana (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9735_20260829_18493301.pdf",
+    "lang": "en"
+  },
+  "pm-svanidhi_1.pdf": {
+    "scheme": "pm-svanidhi",
+    "title": "PM SVANidhi (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/mar/doc2024315325201.pdf",
+    "lang": "en"
+  },
+  "jjm_1.pdf": {
+    "scheme": "jjm",
+    "title": "Jal Jeevan Mission (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc20224636401.pdf",
+    "lang": "en"
+  },
+  "pm-mudra_1.pdf": {
+    "scheme": "pm-mudra",
+    "title": "PM Mudra Yojana (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc202648842601.pdf",
+    "lang": "en"
+  },
+  "stand-up-india_1.pdf": {
+    "scheme": "stand-up-india",
+    "title": "Stand-Up India (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc202345178201.pdf",
+    "lang": "en"
+  },
+  "pmsby_1.pdf": {
+    "scheme": "pmsby",
+    "title": "PM Suraksha Bima Yojana (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026423855201.pdf",
+    "lang": "en"
+  },
+  "pmjjby_1.pdf": {
+    "scheme": "pmjjby",
+    "title": "PM Jeevan Jyoti Bima Yojana (document 1)",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026423855201.pdf",
+    "lang": "en"
+  }
+}

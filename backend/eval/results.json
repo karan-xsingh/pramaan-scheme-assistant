@@ -1,0 +1,346 @@
+{
+ "generated_at": "2026-11-14T23:36:38+00:00",
+ "retriever": "tfidf",
+ "generator": "extractive (no LLM)",
+ "questions": 40,
+ "counts": {
+  "answerable": 33,
+  "unanswerable": 7,
+  "conflict": 1
+ },
+ "metrics": {
+  "retrieval_hit_rate": 100.0,
+  "scheme_precision": 100.0,
+  "false_refusal_rate": 0.0,
+  "correct_refusal_rate": 42.9,
+  "conflict_flagged": 100.0,
+  "answer_fact_match": null,
+  "faithfulness": null,
+  "llm_fallbacks": null,
+  "latency_median_ms": 1,
+  "latency_p95_ms": 1
+ },
+ "rows": [
+  {
+   "q": "How much money does PM-KISAN give each year?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "How many instalments does PM-KISAN pay and how much is each?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Who is excluded from PM-KISAN?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Can a retired pensioner get PM-KISAN?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What documents are needed for PM-KISAN registration?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Where can a farmer register for PM-KISAN?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Does PM-KISAN pay 12,000 rupees per year?",
+   "kind": "premise",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the health cover under Ayushman Bharat PM-JAY?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Are people above 70 covered under PM-JAY?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the helpline number for Ayushman Bharat?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Does PM-JAY charge a registration fee?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Is there a limit on family size under PM-JAY?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the PMAY-G assistance in hilly areas?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the minimum house size under PMAY-G?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "How much money is given for a toilet under PMAY-G?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Can I apply directly for PMAY-G?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Who can get an Ujjwala LPG connection?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the financial support per connection under Ujjwala?",
+   "kind": "conflict",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true,
+   "conflict_flagged": true
+  },
+  {
+   "q": "Where do I submit the Ujjwala application?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the age limit for Atal Pension Yojana?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What pension amounts can I get under APY?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "Can income tax payers join Atal Pension Yojana?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "At what age does the APY pension start?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the maximum yearly deposit in Sukanya Samriddhi?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "When does a Sukanya Samriddhi account mature?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "How many Sukanya Samriddhi accounts can one family open?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "How long do I deposit money in Sukanya Samriddhi?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "पीएम किसान में साल में कितने रुपये मिलते हैं?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "पीएम किसान के लिए कौन पात्र नहीं है?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "आयुष्मान भारत में कितने लाख का कवर है?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "आयुष्मान भारत हेल्पलाइन नंबर क्या है?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "अटल पेंशन योजना में कितनी उम्र के लोग जुड़ सकते हैं?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "प्रधानमंत्री आवास योजना ग्रामीण में पहाड़ी क्षेत्र में कितनी सहायता मिलती है?",
+   "kind": "factual",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "retrieved": true,
+   "ok": true
+  },
+  {
+   "q": "What is the Lakhpati Didi scheme subsidy?",
+   "kind": "unanswerable",
+   "mode": "none",
+   "latency_ms": 0,
+   "ok": true,
+   "outcome": "refused"
+  },
+  {
+   "q": "How do I get a passport renewed?",
+   "kind": "unanswerable",
+   "mode": "none",
+   "latency_ms": 0,
+   "ok": true,
+   "outcome": "refused"
+  },
+  {
+   "q": "What is the best stock to buy this week?",
+   "kind": "unanswerable",
+   "mode": "none",
+   "latency_ms": 0,
+   "ok": true,
+   "outcome": "refused"
+  },
+  {
+   "q": "Does PM-KISAN give free electricity to farmers?",
+   "kind": "unanswerable",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "ok": false,
+   "outcome": "answered"
+  },
+  {
+   "q": "What is the PM-KISAN helpline phone number?",
+   "kind": "unanswerable",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "ok": false,
+   "outcome": "answered"
+  },
+  {
+   "q": "How much is the scholarship under Ayushman Bharat?",
+   "kind": "unanswerable",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "ok": false,
+   "outcome": "answered"
+  },
+  {
+   "q": "What is the loan amount under Sukanya Samriddhi?",
+   "kind": "unanswerable",
+   "mode": "extractive",
+   "latency_ms": 1,
+   "ok": false,
+   "outcome": "answered"
+  }
+ ]
+}

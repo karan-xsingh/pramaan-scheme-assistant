@@ -1,0 +1,49 @@
+[
+  {"q": "How much money does PM-KISAN give each year?", "scheme": "pm-kisan", "expect": ["6,000"], "kind": "factual"},
+  {"q": "How many instalments does PM-KISAN pay and how much is each?", "scheme": "pm-kisan", "expect": ["2,000"], "kind": "factual"},
+  {"q": "Who is excluded from PM-KISAN?", "scheme": "pm-kisan", "expect": ["income tax"], "kind": "factual"},
+  {"q": "Can a retired pensioner get PM-KISAN?", "scheme": "pm-kisan", "expect": ["10,000"], "kind": "factual"},
+  {"q": "What documents are needed for PM-KISAN registration?", "scheme": "pm-kisan", "expect": ["Aadhaar"], "kind": "factual"},
+  {"q": "Where can a farmer register for PM-KISAN?", "scheme": "pm-kisan", "expect": ["Common Service Centre"], "kind": "factual"},
+  {"q": "Does PM-KISAN pay 12,000 rupees per year?", "scheme": "pm-kisan", "expect": ["6,000"], "kind": "premise"},
+
+  {"q": "What is the health cover under Ayushman Bharat PM-JAY?", "scheme": "pm-jay", "expect": ["5 lakh"], "kind": "factual"},
+  {"q": "Are people above 70 covered under PM-JAY?", "scheme": "pm-jay", "expect": ["70"], "kind": "factual"},
+  {"q": "What is the helpline number for Ayushman Bharat?", "scheme": "pm-jay", "expect": ["14555"], "kind": "factual"},
+  {"q": "Does PM-JAY charge a registration fee?", "scheme": "pm-jay", "expect": ["free"], "kind": "factual"},
+  {"q": "Is there a limit on family size under PM-JAY?", "scheme": "pm-jay", "expect": ["no cap"], "kind": "factual"},
+
+  {"q": "What is the PMAY-G assistance in hilly areas?", "scheme": "pmay-g", "expect": ["1.30 lakh"], "kind": "factual"},
+  {"q": "What is the minimum house size under PMAY-G?", "scheme": "pmay-g", "expect": ["25 square"], "kind": "factual"},
+  {"q": "How much money is given for a toilet under PMAY-G?", "scheme": "pmay-g", "expect": ["12,000"], "kind": "factual"},
+  {"q": "Can I apply directly for PMAY-G?", "scheme": "pmay-g", "expect": ["no open application"], "kind": "factual"},
+
+  {"q": "Who can get an Ujjwala LPG connection?", "scheme": "pmuy", "expect": ["woman"], "kind": "factual"},
+  {"q": "What is the financial support per connection under Ujjwala?", "scheme": "pmuy", "expect": ["1,600", "2,200"], "kind": "conflict"},
+  {"q": "Where do I submit the Ujjwala application?", "scheme": "pmuy", "expect": ["distributor"], "kind": "factual"},
+
+  {"q": "What is the age limit for Atal Pension Yojana?", "scheme": "apy", "expect": ["18", "40"], "kind": "factual"},
+  {"q": "What pension amounts can I get under APY?", "scheme": "apy", "expect": ["5,000"], "kind": "factual"},
+  {"q": "Can income tax payers join Atal Pension Yojana?", "scheme": "apy", "expect": ["1 October 2022"], "kind": "factual"},
+  {"q": "At what age does the APY pension start?", "scheme": "apy", "expect": ["60"], "kind": "factual"},
+
+  {"q": "What is the maximum yearly deposit in Sukanya Samriddhi?", "scheme": "ssy", "expect": ["1.5 lakh"], "kind": "factual"},
+  {"q": "When does a Sukanya Samriddhi account mature?", "scheme": "ssy", "expect": ["21 years"], "kind": "factual"},
+  {"q": "How many Sukanya Samriddhi accounts can one family open?", "scheme": "ssy", "expect": ["two"], "kind": "factual"},
+  {"q": "How long do I deposit money in Sukanya Samriddhi?", "scheme": "ssy", "expect": ["15 years"], "kind": "factual"},
+
+  {"q": "पीएम किसान में साल में कितने रुपये मिलते हैं?", "scheme": "pm-kisan", "expect": ["6,000"], "kind": "factual"},
+  {"q": "पीएम किसान के लिए कौन पात्र नहीं है?", "scheme": "pm-kisan", "expect": ["आयकर"], "kind": "factual"},
+  {"q": "आयुष्मान भारत में कितने लाख का कवर है?", "scheme": "pm-jay", "expect": ["5 लाख"], "kind": "factual"},
+  {"q": "आयुष्मान भारत हेल्पलाइन नंबर क्या है?", "scheme": "pm-jay", "expect": ["14555"], "kind": "factual"},
+  {"q": "अटल पेंशन योजना में कितनी उम्र के लोग जुड़ सकते हैं?", "scheme": "apy", "expect": ["18", "40"], "kind": "factual"},
+  {"q": "प्रधानमंत्री आवास योजना ग्रामीण में पहाड़ी क्षेत्र में कितनी सहायता मिलती है?", "scheme": "pmay-g", "expect": ["1.30 लाख"], "kind": "factual"},
+
+  {"q": "What is the Lakhpati Didi scheme subsidy?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "How do I get a passport renewed?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "What is the best stock to buy this week?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "Does PM-KISAN give free electricity to farmers?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "What is the PM-KISAN helpline phone number?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "How much is the scholarship under Ayushman Bharat?", "scheme": null, "expect": [], "kind": "unanswerable"},
+  {"q": "What is the loan amount under Sukanya Samriddhi?", "scheme": null, "expect": [], "kind": "unanswerable"}
+]
