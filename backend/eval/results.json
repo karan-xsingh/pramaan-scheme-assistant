@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T23:36:38+00:00",
+ "generated_at": "2026-11-17T19:33:30+00:00",
  "retriever": "tfidf",
  "generator": "extractive (no LLM)",
  "questions": 40,
@@ -18,14 +18,14 @@
   "faithfulness": null,
   "llm_fallbacks": null,
   "latency_median_ms": 1,
-  "latency_p95_ms": 1
+  "latency_p95_ms": 3
  },
  "rows": [
   {
    "q": "How much money does PM-KISAN give each year?",
    "kind": "factual",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 5,
    "retrieved": true,
    "ok": true
   },
@@ -73,7 +73,7 @@
    "q": "Does PM-KISAN pay 12,000 rupees per year?",
    "kind": "premise",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 2,
    "retrieved": true,
    "ok": true
   },
@@ -97,7 +97,7 @@
    "q": "What is the helpline number for Ayushman Bharat?",
    "kind": "factual",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 2,
    "retrieved": true,
    "ok": true
   },
@@ -105,7 +105,7 @@
    "q": "Does PM-JAY charge a registration fee?",
    "kind": "factual",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 2,
    "retrieved": true,
    "ok": true
   },
@@ -290,7 +290,7 @@
    "q": "What is the Lakhpati Didi scheme subsidy?",
    "kind": "unanswerable",
    "mode": "none",
-   "latency_ms": 0,
+   "latency_ms": 1,
    "ok": true,
    "outcome": "refused"
   },
@@ -298,7 +298,7 @@
    "q": "How do I get a passport renewed?",
    "kind": "unanswerable",
    "mode": "none",
-   "latency_ms": 0,
+   "latency_ms": 1,
    "ok": true,
    "outcome": "refused"
   },
@@ -322,7 +322,7 @@
    "q": "What is the PM-KISAN helpline phone number?",
    "kind": "unanswerable",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 2,
    "ok": false,
    "outcome": "answered"
   },
@@ -330,7 +330,7 @@
    "q": "How much is the scholarship under Ayushman Bharat?",
    "kind": "unanswerable",
    "mode": "extractive",
-   "latency_ms": 1,
+   "latency_ms": 3,
    "ok": false,
    "outcome": "answered"
   },
