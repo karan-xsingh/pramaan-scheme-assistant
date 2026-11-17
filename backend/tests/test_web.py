@@ -20,9 +20,21 @@ def kcc_chunks():
     return [Chunk("web-1#0", "web", "Kisan Credit Card", "https://www.example.gov.in/kcc", "en", None, KCC_TEXT)]
 
 
+# These tests need a library that does NOT contain the Kisan Credit Card question's words. Schemes
+# added later with add_scheme (Mudra, SVANidhi ...) legitimately mention "interest subvention", so the
+# tests use a fixed library of the original sample schemes instead of whatever is in data/docs.
+ORIGINAL_SCHEMES = {"pm-kisan", "pm-jay", "pmay-g", "pmuy", "apy", "ssy"}
+
+
+def original_library():
+    from app.retriever import _load_chunks
+
+    return TfidfRetriever([c for c in _load_chunks() if c.scheme in ORIGINAL_SCHEMES])
+
+
 @pytest.fixture(scope="module")
 def retriever():
-    return TfidfRetriever()
+    return original_library()
 
 
 # ---------------------------------------------------------------- domain rules
@@ -205,6 +217,7 @@ def test_api_web_limit_is_separate_and_stricter(monkeypatch):
     import app.main as main
 
     monkeypatch.setattr("app.llm.available", lambda: False)
+    monkeypatch.setattr(main, "retriever", original_library())
     monkeypatch.setattr(ratelimit, "limiter", RateLimiter(1000))
     monkeypatch.setattr(main, "web_limiter", RateLimiter(1))
     monkeypatch.setattr(web_search, "enabled", lambda: True)
